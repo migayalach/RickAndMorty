@@ -1,0 +1,30 @@
+.button-nav {
+  position: relative;
+  margin-top: -56px;
+  margin-right: 1000px;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: #073b4c;
+}
+
+.aceptar-nav {
+  background-color: #ff9f1c;
+  color: #073b4c;
+  width: 145px;
+  height: 40px;
+  font-size: 28px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-left: 20px;
+  transition: 0.8s;
+  cursor: pointer;
+  user-select: none;
+  text-decoration: none;
+}
+
+.aceptar-nav:hover {
+  background-color: #02c39a;
+  color: #f0ead2;
+}
