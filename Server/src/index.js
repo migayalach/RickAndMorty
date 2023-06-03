@@ -24,8 +24,8 @@ server.use((req, res, next) => {
 server.use("/rickandmorty", router);
 
 // CONECTANDO CON LA BASE DE DATOS
-conn.sync({ force: true }).then(()=>{
+conn.sync({ force: false }).then(() => {
   server.listen(PORT, () => {
-    console.log(`CONECTADO :D.......`);
+    console.log(`CONECTADO :D.......=>${PORT}`);
   });
 });
